@@ -7,7 +7,7 @@
 	</configSuffixes>
 	<enableImports><![CDATA[false]]></enableImports>
 	<configs>
-		<config>ioc.xml</config>
+		<config>src/main/java/test/sp/iot/xml2/test2.xml</config>
 	</configs>
 	<autoconfigs>
 	</autoconfigs>

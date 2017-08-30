@@ -1,10 +1,11 @@
 package test.sp.iot.anno1;
 
+import javax.inject.Named;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.stereotype.Service;
 
-@Service("om")
+@Named("om")
 public class OrderManager {
 	private String name;
 	@Autowired
