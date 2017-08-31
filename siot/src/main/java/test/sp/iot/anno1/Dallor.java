@@ -1,22 +1,19 @@
 package test.sp.iot.anno1;
 
-import org.springframework.stereotype.Component;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
-@Component
-public class Dallor {
-		
-	private int won;
+@Service
+public class Dallor implements Exechange{
+	
+	private Money Money;
 	public Dallor(){
 		
 	}
-	public Dallor(int won){
-		this.won = won;
+	public Exechange payMoney(int Pay) {
+		System.out.println("중고시장에서 거래로" + );
+		return null;
 	}
-	public int getWon() {
-		return won;
-	}
-	public void setWon(int won) {
-		this.won = won;
-	}
+	
 	
 }

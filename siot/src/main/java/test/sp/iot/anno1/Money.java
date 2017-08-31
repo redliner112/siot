@@ -4,19 +4,20 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Money {
-		
-	private int won;
-	public Money(){
-		
-	}
-	public Money(int won){
-		this.won = won;
-	}
-	public int getWon() {
-		return won;
-	}
-	public void setWon(int won) {
-		this.won = won;
-	}
+
+	private int name;
+	public Money(){}
 	
+	public Money(int  name){
+		this.name = name;
+	}
+
+	public int getName() {
+		return name;
+	}
+
+	public void setName(int name) {
+		this.name = name;
+	}
+
 }

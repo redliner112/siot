@@ -10,9 +10,9 @@ public class Ford implements Maker{
 	public Ford(){
 		
 	}
-		public Car sellCar(Money money){
+		public Car sellCar(Won money){
 			System.out.println("포드에서" + money.getWon() + "에 차를 팔았다.");
-//			Car car = new Car("A6");
+			Car car = new Car("포드");
 			return car;
 		}
 }

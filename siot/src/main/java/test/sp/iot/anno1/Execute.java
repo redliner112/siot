@@ -1,6 +1,7 @@
 package test.sp.iot.anno1;
 
 import org.springframework.context.ApplicationContext;
+
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Execute {
@@ -9,6 +10,7 @@ public class Execute {
 		ApplicationContext factory;
 		String path = "classpath:/anno1/ioc.xml";
 		factory = new ClassPathXmlApplicationContext(path);
+		
 		OrderManager om = (OrderManager)factory.getBean("om");
 		om.order();
 	}
