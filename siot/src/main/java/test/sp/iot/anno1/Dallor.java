@@ -11,7 +11,7 @@ public class Dallor implements Exechange{
 		
 	}
 	public Exechange payMoney(int Pay) {
-		System.out.println("중고시장에서 거래로" + );
+		System.out.println("중고거래로" + );
 		return null;
 	}
 	
